@@ -6,7 +6,7 @@ const Header = ({ setPage, setOpen, open }) => {
       <div className="inner">
         <nav className="nav">
           <span className="header-logo" onClick={() => setPage(0)}>
-            Tarolog Profile
+            Hj-over
           </span>
           <ul className="gnb">
             <li onClick={() => setPage(0)}>
