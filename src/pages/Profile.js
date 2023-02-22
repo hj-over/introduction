@@ -10,10 +10,10 @@ const Profile = () => {
         </h2>
         <div className="contents">
           <div className="profile-box">
-            <img src="/images/profile_1.png" alt="" />
+            <img src="images/profile_1.png" alt="" />
           </div>
           <div className="profile-box">
-            <img src="/images/profile_2.png" alt="" />
+            <img src="images/profile_2.png" alt="" />
           </div>
         </div>
       </div>

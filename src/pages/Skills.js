@@ -10,7 +10,7 @@ const Skills = () => {
           <ul className="skills-list">
             <li>
               <img
-                src="/images/skill-html.png"
+                src="images/skill-html.png"
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -19,7 +19,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-css.png"
+                src="images/skill-css.png"
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -28,7 +28,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-js.png"
+                src="images/skill-js.png"
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -37,7 +37,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-react.png"
+                src="images/skill-react.png"
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -46,7 +46,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-git.png"
+                src="images/skill-git.png"
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -55,7 +55,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-redux.png"
+                src="images/skill-redux.png"
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -64,7 +64,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-figma.png"
+                src="images/skill-figma.png"
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -73,7 +73,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-type.png"
+                src="images/skill-type.png"
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -82,7 +82,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-sass.png"
+                src="images/skill-sass.png"
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"

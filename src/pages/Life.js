@@ -9,28 +9,28 @@ const Life = () => {
           {/* 나의 대외활동, 취미, 회사 대표가 바라는 인재상 */}
           <ul className="life-list">
             <li>
-              <img src="/images/life.png" alt="life" />
+              <img src="images/life.png" alt="life" />
             </li>
             <li>
-              <img src="/images/life.png" alt="life" />
+              <img src="images/life.png" alt="life" />
             </li>
             <li>
-              <img src="/images/life.png" alt="life" />
+              <img src="images/life.png" alt="life" />
             </li>
             <li>
-              <img src="/images/life.png" alt="life" />
+              <img src="images/life.png" alt="life" />
             </li>
             <li>
-              <img src="/images/life.png" alt="life" />
+              <img src="images/life.png" alt="life" />
             </li>
             <li>
-              <img src="/images/life.png" alt="life" />
+              <img src="images/life.png" alt="life" />
             </li>
             <li>
-              <img src="/images/life.png" alt="life" />
+              <img src="images/life.png" alt="life" />
             </li>
             <li>
-              <img src="/images/life.png" alt="life" />
+              <img src="images/life.png" alt="life" />
             </li>
           </ul>
         </div>
