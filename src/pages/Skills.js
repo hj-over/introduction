@@ -64,16 +64,16 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="images/nivo.png"
+                src="images/skill-figma.png"
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
-                data-aos-delay="800"
+                data-aos-delay="900"
               />
             </li>
             <li>
               <img
-                src="images/skill-figma.png"
+                src="images/notion_icon.png"
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"

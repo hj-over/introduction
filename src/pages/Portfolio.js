@@ -11,7 +11,9 @@ const Portfolio = () => {
     <section className="portfolio scroll">
       <div className="inner">
         {/* 개발담당자 : 팀프로젝트, 개인 작업(5개 목표(퍼블리싱 > 프론트)) */}
-        <h2 className="text-xl" data-aos="fade-up">Portfolio</h2>
+        <h2 className="text-xl" data-aos="fade-up">
+          Portfolio
+        </h2>
         <div className="contents">
           {/* 팀프로젝트 */}
           <div className="portfolio-box">
@@ -30,7 +32,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
-                  <li>프로젝트명 : </li>
+                  <li>프로젝트명 : 교보문고 미니 프로젝트 </li>
                   <li>프로젝트 기간 : </li>
                   <li>프로젝트 주제 : </li>
                   <li>프로젝트 기여도 : </li>
@@ -38,7 +40,15 @@ const Portfolio = () => {
                   <li>프로젝트 사용언어 : </li>
                   <li>프로젝트 피그마 : </li>
                   <li>프로젝트 Git : </li>
-                  <li>프로젝트 노션 : </li>
+                  <li>
+                    프로젝트 노션 :{" "}
+                    <a
+                      href="https://tourmaline-atlasaurus-77b.notion.site/Front-Backend-4-5b9f08f249aa4cb1b71dad45c8b29aae"
+                      className="text-indigo-800 underline underline-offset-4"
+                    >
+                      Notion
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -56,7 +66,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
-                  <li>프로젝트명 : </li>
+                  <li>프로젝트명 : 협업 프로젝트 1차</li>
                   <li>프로젝트 기간 : </li>
                   <li>프로젝트 주제 : </li>
                   <li>프로젝트 기여도 : </li>
@@ -64,7 +74,15 @@ const Portfolio = () => {
                   <li>프로젝트 사용언어 : </li>
                   <li>프로젝트 피그마 : </li>
                   <li>프로젝트 Git : </li>
-                  <li>프로젝트 노션 : </li>
+                  <li>
+                    프로젝트 노션 :{" "}
+                    <a
+                      href="https://tourmaline-atlasaurus-77b.notion.site/FB-1-50dbb3df74e040c394809ad8e97b4927"
+                      className="text-indigo-800 underline underline-offset-4"
+                    >
+                      Notion
+                    </a>{" "}
+                  </li>
                 </ul>
               </div>
             </div>
@@ -76,13 +94,13 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="images/team.png" alt="project" />
+                  <img src="images/tablecat.jpg" alt="project" />
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
-                  <li>프로젝트명 : </li>
+                  <li>프로젝트명 : 협업 프로젝트 2차</li>
                   <li>프로젝트 기간 : </li>
                   <li>프로젝트 주제 : </li>
                   <li>프로젝트 기여도 : </li>
@@ -90,7 +108,15 @@ const Portfolio = () => {
                   <li>프로젝트 사용언어 : </li>
                   <li>프로젝트 피그마 : </li>
                   <li>프로젝트 Git : </li>
-                  <li>프로젝트 노션 : </li>
+                  <li>
+                    프로젝트 노션 :{" "}
+                    <a
+                      href="https://tourmaline-atlasaurus-77b.notion.site/FB-2-f38a7855136541aead470c7564569812"
+                      className="text-indigo-800 underline underline-offset-4"
+                    >
+                      Notion
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -102,7 +128,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="images/team.png" alt="project" />
+                  <img src="images/tablecat.jpg" alt="project" />
                 </a>
                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
@@ -155,7 +181,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="images/team.png" alt="portfolio" />
+                  <img src="images/tablecat.jpg" alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -165,7 +191,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="images/team.png" alt="portfolio" />
+                  <img src="images/tablecat.jpg" alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -175,7 +201,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="images/team.png" alt="portfolio" />
+                  <img src="images/tablecat.jpg" alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -185,7 +211,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="images/team.png" alt="portfolio" />
+                  <img src="images/tablecat.jpg" alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -195,7 +221,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="images/team.png" alt="portfolio" />
+                  <img src="images/tablecat.jpg" alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -205,7 +231,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="images/team.png" alt="portfolio" />
+                  <img src="images/tablecat.jpg" alt="portfolio" />
                 </a>
               </SwiperSlide>
             </Swiper>

@@ -26,7 +26,7 @@ const Gotop = () => {
 
   return (
     <div
-      className="gotop"
+      className="gotop rounded-xl shadow-md drop-shadow-lg"
       ref={bt}
       onClick={() => {
         new Anime(window, {
