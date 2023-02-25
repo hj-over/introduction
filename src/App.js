@@ -1,6 +1,8 @@
 import "./scss/style.scss";
 // Anime.js
 import Anime from "./assets/Anime";
+// tailwind
+import "./App.css";
 
 // AOS
 import AOS from "aos";
