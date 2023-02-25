@@ -28,6 +28,15 @@ const Skills = () => {
             </li>
             <li>
               <img
+                src="images/skill-react.png"
+                alt="skill"
+                data-aos="fade-up"
+                data-aos-duration="300"
+                data-aos-delay="600"
+              />
+            </li>
+            <li>
+              <img
                 src="images/tailwind_css_icon.png"
                 alt="skill"
                 data-aos="fade-up"
@@ -42,15 +51,6 @@ const Skills = () => {
                 data-aos="fade-up"
                 data-aos-duration="300"
                 data-aos-delay="500"
-              />
-            </li>
-            <li>
-              <img
-                src="images/skill-react.png"
-                alt="skill"
-                data-aos="fade-up"
-                data-aos-duration="300"
-                data-aos-delay="600"
               />
             </li>
             <li>

@@ -22,6 +22,10 @@
         cursor: pointer;
         white-space: nowrap;
       }
+      &:hover .header-logo {
+        color: #818cf8;
+        transition: 0.5s;
+      }
       .gnb {
         height: 100%;
         display: flex;
