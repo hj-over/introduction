@@ -15,19 +15,17 @@ const Piechart = () => {
     },
   };
   return (
-    <div
-      style={{ width: "350px", height: "300px" }}
-      className="justify-center"
-    >
+    <div style={{ width: "400px", height: "300px" }} className="justify-center">
       <ResponsivePie
         /**
          * chart에 사용될 데이터
          */
         data={[
-          { id: "figma", value: 35 },
-          { id: "JS", value: 32 },
-          { id: "CSS", value: 15 },
-          { id: "tailwind", value: 15 },
+          { id: "Figma", value: 10 },
+          { id: "JS", value: 20 },
+          { id: "CSS", value: 25 },
+          { id: "Tailwind", value: 15 },
+          { id: "TypeScript", value: 5 },
         ]}
         /**
          * chart margin
@@ -98,7 +96,7 @@ const Piechart = () => {
             justify: false,
             translateX: 13,
             translateY: 56,
-            itemsSpacing: -15,
+            itemsSpacing: -25,
             itemWidth: 100,
             itemHeight: 18,
             itemTextColor: "#999",
