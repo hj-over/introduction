@@ -15,7 +15,7 @@ const Piechart = () => {
     },
   };
   return (
-    <div style={{ width: "400px", height: "300px" }} className="justify-center">
+    <div style={{ width: "450px", height: "300px" }} className="justify-center">
       <ResponsivePie
         /**
          * chart에 사용될 데이터
@@ -94,15 +94,15 @@ const Piechart = () => {
             anchor: "bottom",
             direction: "row",
             justify: false,
-            translateX: 13,
+            translateX: 10,
             translateY: 56,
-            itemsSpacing: -25,
+            itemsSpacing: -30,
             itemWidth: 100,
             itemHeight: 18,
             itemTextColor: "#999",
             itemDirection: "left-to-right",
             itemOpacity: 1,
-            symbolSize: 20,
+            symbolSize: 18,
             symbolShape: "circle",
             effects: [
               {
