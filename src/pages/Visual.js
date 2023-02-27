@@ -16,7 +16,15 @@ const Visual = () => {
     <div className="visual scroll">
       <div className="inner">
         {/* 첫인상 남기기(사진/대표단어 ) */}
-        <img src={`${path}/images/visual.png`} alt="visual" />
+        <img
+          src={`${path}/images/nostelgia.jpg`}
+          alt="visual"
+          style={{ width: "500px", height: "250px" }}
+        />
+        <p className="text-[50px] text-white opacity-80 text-center">
+          {/* 많이 배우고 싶은
+          <br /> 이효정입니다 */}
+        </p>
         {/* <img src="/images/visual.png" alt="visual" /> */}
         {/* Anime 샘플 */}
         <div
