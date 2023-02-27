@@ -32,7 +32,7 @@ const Skills = () => {
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
-                data-aos-delay="600"
+                data-aos-delay="500"
               />
             </li>
             <li>
@@ -50,7 +50,7 @@ const Skills = () => {
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
-                data-aos-delay="500"
+                data-aos-delay="600"
               />
             </li>
             <li>
@@ -59,7 +59,7 @@ const Skills = () => {
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
-                data-aos-delay="1000"
+                data-aos-delay="700"
               />
             </li>
             <li>
