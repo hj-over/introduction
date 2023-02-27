@@ -28,7 +28,6 @@ const Portfolio = () => {
                 >
                   <img src="images/tablecat.jpg" alt="project" />
                 </a>
-                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
@@ -70,7 +69,6 @@ const Portfolio = () => {
                 >
                   <img src="images/tablecat.jpg" alt="project" />
                 </a>
-                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
@@ -81,6 +79,15 @@ const Portfolio = () => {
                   <li>프로젝트 도구 : </li>
                   <li>프로젝트 사용언어 : </li>
                   <li>프로젝트 피그마 : </li>
+                  <li>
+                    PPT :{" "}
+                    <a
+                      href="https://www.canva.com/design/DAFZY_ZS-8k/SO_UxXDmOtsy-EmzM1tiCA/view?utm_content=DAFZY_ZS-8k&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu"
+                      className="text-indigo-800 underline underline-offset-4"
+                    >
+                      PPT
+                    </a>
+                  </li>
                   <li>프로젝트 Git : </li>
                   <li>
                     프로젝트 노션 :{" "}
@@ -104,7 +111,6 @@ const Portfolio = () => {
                 >
                   <img src="images/tablecat.jpg" alt="project" />
                 </a>
-                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
@@ -115,6 +121,7 @@ const Portfolio = () => {
                   <li>프로젝트 도구 : </li>
                   <li>프로젝트 사용언어 : </li>
                   <li>프로젝트 피그마 : </li>
+                  <li>PPT :</li>
                   <li>프로젝트 Git : </li>
                   <li>
                     프로젝트 노션 :{" "}
@@ -138,7 +145,6 @@ const Portfolio = () => {
                 >
                   <img src="images/tablecat.jpg" alt="project" />
                 </a>
-                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">

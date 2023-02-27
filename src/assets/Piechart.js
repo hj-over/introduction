@@ -46,7 +46,7 @@ const Piechart = () => {
         /**
          * chart 색상
          */
-        colors={["#d8b4fe", "#D2C6E3", "#4c1d95", "#5C2994", "#a78bfa"]} // 커스터하여 사용할 때
+        colors={["#34d399", "#5eead4", "#14b8a6", "#86efac", "#0f766e"]} // 커스터하여 사용할 때
         // colors={{ scheme: 'nivo' }} // nivo에서 제공해주는 색상 조합 사용할 때
         /**
          * pad border 두께 설정

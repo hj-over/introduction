@@ -55,6 +55,15 @@ const Skills = () => {
             </li>
             <li>
               <img
+                src="images/skill-type.png"
+                alt="skill"
+                data-aos="fade-up"
+                data-aos-duration="300"
+                data-aos-delay="1000"
+              />
+            </li>
+            <li>
+              <img
                 src="images/github_icon.png"
                 alt="skill"
                 data-aos="fade-up"
@@ -78,15 +87,6 @@ const Skills = () => {
                 data-aos="fade-up"
                 data-aos-duration="300"
                 data-aos-delay="900"
-              />
-            </li>
-            <li>
-              <img
-                src="images/skill-type.png"
-                alt="skill"
-                data-aos="fade-up"
-                data-aos-duration="300"
-                data-aos-delay="1000"
               />
             </li>
             <li>
