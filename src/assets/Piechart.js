@@ -15,13 +15,15 @@ const Piechart = () => {
     },
   };
   return (
-    <div style={{ width: "500px", height: "480px" }}>
+    <div
+      style={{ width: "350px", height: "300px" }}
+      className="justify-center"
+    >
       <ResponsivePie
         /**
          * chart에 사용될 데이터
          */
         data={[
-          { id: "water", value: 25 },
           { id: "figma", value: 35 },
           { id: "JS", value: 32 },
           { id: "CSS", value: 15 },
@@ -30,7 +32,7 @@ const Piechart = () => {
         /**
          * chart margin
          */
-        margin={{ top: 0, right: 30, bottom: 70, left: 30 }}
+        margin={{ top: 0, right: 30, bottom: 80, left: 30 }}
         /**
          * chart 중간 빈공간 반지름
          */
@@ -94,9 +96,9 @@ const Piechart = () => {
             anchor: "bottom",
             direction: "row",
             justify: false,
-            translateX: 0,
+            translateX: 13,
             translateY: 56,
-            itemsSpacing: 0,
+            itemsSpacing: -15,
             itemWidth: 100,
             itemHeight: 18,
             itemTextColor: "#999",

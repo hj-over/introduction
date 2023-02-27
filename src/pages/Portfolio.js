@@ -21,7 +21,7 @@ const Portfolio = () => {
             <div className="portfolio-team">
               <div className="portfolio-left">
                 <a
-                  href="https://github.com/hj-over/hansalim"
+                  href="https://github.com/haglass/kyobo"
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"
@@ -39,7 +39,15 @@ const Portfolio = () => {
                   <li>프로젝트 도구 : </li>
                   <li>프로젝트 사용언어 : </li>
                   <li>프로젝트 피그마 : </li>
-                  <li>프로젝트 Git : </li>
+                  <li>
+                    프로젝트 Git :{" "}
+                    <a
+                      href="https://github.com/haglass/kyobo"
+                      className="text-indigo-800 underline underline-offset-4"
+                    >
+                      GitHub
+                    </a>{" "}
+                  </li>
                   <li>
                     프로젝트 노션 :{" "}
                     <a
@@ -176,7 +184,7 @@ const Portfolio = () => {
             >
               <SwiperSlide>
                 <a
-                  href="#"
+                  href="https://github.com/hj-over/hansalim"
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"

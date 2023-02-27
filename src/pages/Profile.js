@@ -15,7 +15,7 @@ const Profile = () => {
           Profile
         </h2>
         <div className="contents">
-          <div className="profile-box ">
+          <div className="profile-box flex">
             <Piechart />
           </div>
           <div className="profile-box">
