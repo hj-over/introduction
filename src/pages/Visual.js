@@ -19,7 +19,7 @@ const Visual = () => {
         <img
           src={`${path}/images/nostelgia.jpg`}
           alt="visual"
-          style={{ width: "500px", height: "250px" }}
+          style={{ width: "700px", height: "400px" }}
         />
         <p className="text-[50px] text-white opacity-80 text-center">
           {/* 많이 배우고 싶은
