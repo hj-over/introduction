@@ -17,9 +17,9 @@ const Visual = () => {
       <div className="inner">
         {/* 첫인상 남기기(사진/대표단어 ) */}
         <img
-          src={`${path}/images/nostelgia.jpg`}
+          src={`${path}/images/monet3.png`}
           alt="visual"
-          style={{ width: "700px", height: "400px" }}
+          style={{ width: "600px", height: "400px" }}
         />
         <p className="text-[50px] text-white opacity-80 text-center">
           {/* 많이 배우고 싶은

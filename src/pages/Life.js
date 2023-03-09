@@ -20,18 +20,6 @@ const Life = () => {
             <li>
               <img src="images/life.jpg" alt="life" />
             </li>
-            <li>
-              <img src="images/life.jpg" alt="life" />
-            </li>
-            <li>
-              <img src="images/life.jpg" alt="life" />
-            </li>
-            <li>
-              <img src="images/life.jpg" alt="life" />
-            </li>
-            <li>
-              <img src="images/life.jpg" alt="life" />
-            </li>
           </ul>
         </div>
       </div>

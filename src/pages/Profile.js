@@ -19,7 +19,18 @@ const Profile = () => {
             <Piechart />
           </div>
           <div className="profile-box">
-            <img src="images/tablecat.jpg" alt="cat" />
+            <span>사진 첨부</span>
+            <p className="flex justify-center font-bold text-xl text-[#0f766e]">
+              Publisher
+            </p>
+            <p
+              className="font-medium text-lg"
+              data-aos="fade-up"
+              data-aos-duration="900"
+              data-aos-delay="300"
+            >
+              활자를 사랑하는 퍼블리셔
+            </p>
           </div>
         </div>
       </div>

@@ -88,7 +88,15 @@ const Portfolio = () => {
                       PPT
                     </a>
                   </li>
-                  <li>프로젝트 Git : </li>
+                  <li>
+                    프로젝트 Git :{" "}
+                    <a
+                      href="https://github.com/devparkse/damhwamarket"
+                      className="text-indigo-800 underline underline-offset-4"
+                    >
+                      GitHub
+                    </a>
+                  </li>
                   <li>
                     프로젝트 노션 :{" "}
                     <a
@@ -145,19 +153,6 @@ const Portfolio = () => {
                 >
                   <img src="images/tablecat.jpg" alt="project" />
                 </a>
-              </div>
-              <div className="portfolio-right">
-                <ul className="portfilio-team-list">
-                  <li>프로젝트명 : </li>
-                  <li>프로젝트 기간 : </li>
-                  <li>프로젝트 주제 : </li>
-                  <li>프로젝트 기여도 : </li>
-                  <li>프로젝트 도구 : </li>
-                  <li>프로젝트 사용언어 : </li>
-                  <li>프로젝트 피그마 : </li>
-                  <li>프로젝트 Git : </li>
-                  <li>프로젝트 노션 : </li>
-                </ul>
               </div>
             </div>
           </div>
