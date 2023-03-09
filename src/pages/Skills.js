@@ -46,7 +46,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="images/skill-type.png"
+                src="images/typescript_icon.png"
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"

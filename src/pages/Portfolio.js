@@ -31,12 +31,12 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
-                  <li>프로젝트명 : 교보문고 미니 프로젝트 </li>
-                  <li>프로젝트 기간 : </li>
-                  <li>프로젝트 주제 : </li>
-                  <li>프로젝트 기여도 : </li>
-                  <li>프로젝트 도구 : </li>
-                  <li>프로젝트 사용언어 : </li>
+                  <li>프로젝트명 | 교보문고 미니 프로젝트 </li>
+                  <li>프로젝트 기간 | </li>
+                  <li>프로젝트 주제 | </li>
+                  <li>프로젝트 기여도 | </li>
+                  <li>프로젝트 도구 | </li>
+                  <li>프로젝트 사용언어 | </li>
                   <li>
                     프로젝트 Git :{" "}
                     <a
@@ -69,12 +69,12 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
-                  <li>프로젝트명 : 프론트엔드&백엔드 협업 프로젝트 1차</li>
-                  <li>프로젝트 기간 : </li>
-                  <li>프로젝트 주제 : </li>
-                  <li>프로젝트 기여도 : </li>
-                  <li>프로젝트 도구 : </li>
-                  <li>프로젝트 사용언어 : </li>
+                  <li>프로젝트명 | 프론트엔드&백엔드 협업 프로젝트 1차</li>
+                  <li>프로젝트 기간 | </li>
+                  <li>프로젝트 주제 | </li>
+                  <li>프로젝트 기여도 | </li>
+                  <li>프로젝트 도구 | </li>
+                  <li>프로젝트 사용언어 | </li>
                   <li>
                     PPT :{" "}
                     <a
@@ -116,15 +116,15 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
-                  <li>프로젝트명 : 프론트엔드&백엔드 협업 프로젝트 2차</li>
-                  <li>프로젝트 기간 : </li>
-                  <li>프로젝트 주제 : </li>
-                  <li>프로젝트 기여도 : </li>
-                  <li>프로젝트 도구 : </li>
-                  <li>프로젝트 사용언어 : </li>
-                  <li>PPT :</li>
+                  <li>프로젝트명 | 프론트엔드&백엔드 협업 프로젝트 2차</li>
+                  <li>프로젝트 기간 | </li>
+                  <li>프로젝트 주제 | </li>
+                  <li>프로젝트 기여도 | </li>
+                  <li>프로젝트 도구 | </li>
+                  <li>프로젝트 사용언어 | </li>
+                  <li>PPT |</li>
                   <li>
-                    프로젝트 Git :{" "}
+                    프로젝트 Git |{" "}
                     <a
                       href="https://github.com/gaeguriBanchan/dietdiary"
                       className="text-indigo-800 underline underline-offset-4"
@@ -133,7 +133,7 @@ const Portfolio = () => {
                     </a>
                   </li>
                   <li>
-                    프로젝트 노션 :{" "}
+                    프로젝트 노션 |{" "}
                     <a
                       href="https://tourmaline-atlasaurus-77b.notion.site/FB-2-f38a7855136541aead470c7564569812"
                       className="text-indigo-800 underline underline-offset-4"
