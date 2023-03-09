@@ -19,18 +19,24 @@ const Profile = () => {
             <Piechart />
           </div>
           <div className="profile-box">
-            <span>사진 첨부</span>
-            <p className="flex justify-center font-bold text-xl text-[#0f766e]">
-              Publisher
-            </p>
-            <p
-              className="font-medium text-lg"
-              data-aos="fade-up"
-              data-aos-duration="900"
-              data-aos-delay="300"
-            >
-              활자를 사랑하는 퍼블리셔
-            </p>
+            <span className="monet5">
+              <p
+                className="flex justify-center text-center font-bold text-xl text-gray-100 pt-20 pb-7"
+                data-aos="fade-up"
+                data-aos-duration="900"
+                data-aos-delay="200"
+              >
+                Publisher
+              </p>
+              <p
+                className="font-medium text-lg text-gray-100"
+                data-aos="fade-up"
+                data-aos-duration="900"
+                data-aos-delay="300"
+              >
+                활자를 사랑하는 퍼블리셔
+              </p>
+            </span>
           </div>
         </div>
       </div>

@@ -17,7 +17,9 @@ const Portfolio = () => {
         <div className="contents">
           {/* 팀프로젝트 */}
           <div className="portfolio-box">
-            <h3 data-aos="fade-up">Team Project</h3>
+            <h3 data-aos="fade-up" className="pb-3">
+              Team Project
+            </h3>
             <div className="portfolio-team">
               <div className="portfolio-left">
                 <a
@@ -25,9 +27,7 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"
-                >
-                  <img src="images/tablecat.jpg" alt="project" />
-                </a>
+                ></a>
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
@@ -37,7 +37,6 @@ const Portfolio = () => {
                   <li>프로젝트 기여도 : </li>
                   <li>프로젝트 도구 : </li>
                   <li>프로젝트 사용언어 : </li>
-                  <li>프로젝트 피그마 : </li>
                   <li>
                     프로젝트 Git :{" "}
                     <a
@@ -66,9 +65,7 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"
-                >
-                  <img src="images/tablecat.jpg" alt="project" />
-                </a>
+                ></a>
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
@@ -78,7 +75,6 @@ const Portfolio = () => {
                   <li>프로젝트 기여도 : </li>
                   <li>프로젝트 도구 : </li>
                   <li>프로젝트 사용언어 : </li>
-                  <li>프로젝트 피그마 : </li>
                   <li>
                     PPT :{" "}
                     <a
@@ -116,9 +112,7 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"
-                >
-                  <img src="images/tablecat.jpg" alt="project" />
-                </a>
+                ></a>
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
@@ -128,7 +122,6 @@ const Portfolio = () => {
                   <li>프로젝트 기여도 : </li>
                   <li>프로젝트 도구 : </li>
                   <li>프로젝트 사용언어 : </li>
-                  <li>프로젝트 피그마 : </li>
                   <li>PPT :</li>
                   <li>프로젝트 Git : </li>
                   <li>
@@ -150,9 +143,7 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"
-                >
-                  <img src="images/tablecat.jpg" alt="project" />
-                </a>
+                ></a>
               </div>
             </div>
           </div>

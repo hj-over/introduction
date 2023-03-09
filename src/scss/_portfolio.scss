@@ -6,16 +6,18 @@
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
-          margin-bottom: 20px;
+          margin-bottom: 30px;
 
           .portfolio-left {
-            width: calc(60% - 10px);
+            width: calc(50% - 10px);
             text-align: center;
             a {
               display: block;
-              img {
-                width: 90%;
-              }
+              background: url(../../public/images/nostelgia.jpg) no-repeat
+                center;
+              width: 530px;
+              height: 250px;
+              background-size: cover;
             }
           }
           .portfolio-right {
