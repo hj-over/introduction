@@ -123,7 +123,15 @@ const Portfolio = () => {
                   <li>프로젝트 도구 : </li>
                   <li>프로젝트 사용언어 : </li>
                   <li>PPT :</li>
-                  <li>프로젝트 Git : </li>
+                  <li>
+                    프로젝트 Git :{" "}
+                    <a
+                      href="https://github.com/gaeguriBanchan/dietdiary"
+                      className="text-indigo-800 underline underline-offset-4"
+                    >
+                      GitHub
+                    </a>
+                  </li>
                   <li>
                     프로젝트 노션 :{" "}
                     <a
@@ -149,7 +157,7 @@ const Portfolio = () => {
           </div>
           {/* 개인 스터디 프로젝트 */}
           <div className="portfolio-box">
-            <h3>Study Project</h3>
+            <h3 className="pb-3">Study Project</h3>
             {/* Swiper 배치 */}
             <Swiper
               className="portfolio-slide"

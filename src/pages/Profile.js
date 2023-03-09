@@ -34,7 +34,7 @@ const Profile = () => {
                 data-aos-duration="900"
                 data-aos-delay="300"
               >
-                활자를 사랑하는 퍼블리셔
+                활자를 사랑하는 퍼블리셔 <br /> 숨겨진 컨텍스트를 읽어냅니다
               </p>
             </span>
           </div>
