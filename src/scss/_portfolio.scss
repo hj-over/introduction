@@ -54,5 +54,8 @@
   .portfolio-left,
   .portfolio-right {
     width: 100% !important;
+    a {
+      width: 375px !important;
+    }
   }
 }

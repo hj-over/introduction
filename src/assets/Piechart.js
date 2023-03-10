@@ -23,8 +23,8 @@ const Piechart = () => {
         data={[
           { id: "TypeScript", value: 5 },
           { id: "HTML", value: 25 },
-          { id: "CSS", value: 25 },
           { id: "Tailwind", value: 15 },
+          { id: "CSS", value: 25 },
           { id: "JS", value: 20 },
         ]}
         /**
@@ -94,10 +94,10 @@ const Piechart = () => {
             anchor: "bottom-right",
             direction: "row",
             justify: false,
-            translateX: 70,
+            translateX: 80,
             translateY: 56,
-            itemsSpacing: -20,
-            itemWidth: 100,
+            itemsSpacing: -18,
+            itemWidth: 95,
             itemHeight: 18,
             itemTextColor: "#999",
             itemDirection: "left-to-right",

@@ -144,16 +144,6 @@ const Portfolio = () => {
                 </ul>
               </div>
             </div>
-            <div className="portfolio-team">
-              <div className="portfolio-left">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                ></a>
-              </div>
-            </div>
           </div>
           {/* 개인 스터디 프로젝트 */}
           <div className="portfolio-box">
