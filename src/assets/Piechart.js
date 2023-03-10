@@ -15,7 +15,7 @@ const Piechart = () => {
     },
   };
   return (
-    <div style={{ width: "400px", height: "300px" }} className="justify-center">
+    <div style={{ width: "380px", height: "300px" }} className="justify-center">
       <ResponsivePie
         /**
          * chart에 사용될 데이터
@@ -30,7 +30,7 @@ const Piechart = () => {
         /**
          * chart margin
          */
-        margin={{ top: 0, right: 30, bottom: 80, left: 30 }}
+        margin={{ top: 0, right: 35, bottom: 80, left: 30 }}
         /**
          * chart 중간 빈공간 반지름
          */
