@@ -7,6 +7,7 @@ import { Navigation, Pagination } from "swiper";
 import "swiper/css/navigation";
 
 const Portfolio = () => {
+  const path = process.env.PUBLIC_URL;
   return (
     <section className="portfolio scroll">
       <div className="inner">
@@ -27,7 +28,9 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"
-                ></a>
+                >
+                  {" "}
+                </a>
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
@@ -69,7 +72,10 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
-                  <li>프로젝트명 | 프론트엔드&백엔드 협업 프로젝트 1차</li>
+                  <li>
+                    프로젝트명 | 프론트엔드&백엔드 협업 프로젝트 1차{" "}
+                    <a href="http://192.168.0.95:3000/"></a>
+                  </li>
                   <li>프로젝트 기간 | </li>
                   <li>프로젝트 주제 | </li>
                   <li>프로젝트 기여도 | </li>
@@ -179,7 +185,18 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="images/tablecat.jpg" alt="portfolio" />
+                  {" "}
+                  <img src={`${path}/images/hansalim.PNG`} alt="portfolio" />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <a
+                  href="https://hj-over.github.io/STX/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="portfolio"
+                >
+                  <img src={`${path}/images/stx.PNG`} alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -189,7 +206,8 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="images/tablecat.jpg" alt="portfolio" />
+                  {" "}
+                  <img src={`${path}/images/stx.PNG`} alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -199,7 +217,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="images/tablecat.jpg" alt="portfolio" />
+                  <img src={`${path}/images/stx.PNG`} alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -209,7 +227,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="images/tablecat.jpg" alt="portfolio" />
+                  <img src={`${path}/images/stx.PNG`} alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -219,17 +237,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src="images/tablecat.jpg" alt="portfolio" />
-                </a>
-              </SwiperSlide>
-              <SwiperSlide>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  <img src="images/tablecat.jpg" alt="portfolio" />
+                  <img src={`${path}/images/stx.PNG`} alt="portfolio" />
                 </a>
               </SwiperSlide>
             </Swiper>

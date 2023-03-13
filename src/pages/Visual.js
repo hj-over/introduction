@@ -17,13 +17,12 @@ const Visual = () => {
       <div className="inner">
         {/* 첫인상 남기기(사진/대표단어 ) */}
         <img
-          src={`${path}/images/monet4.png`}
+          src={`${path}/images/me.jpg`}
           alt="visual"
-          style={{ width: "473px", height: "600px" }}
+          style={{ width: "573px", height: "700px" }}
         />
-        <p className="text-[50px] text-white opacity-80 text-center">
-          {/* 많이 배우고 싶은
-          <br /> 이효정입니다 */}
+        <p className="text-[50px] text-teal-700 text-right">
+          Publisher & Frontend Developer
         </p>
         {/* <img src="/images/visual.png" alt="visual" /> */}
         {/* Anime 샘플 */}
