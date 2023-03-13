@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/introduction/static/css/main.974b05ec.css",
-    "main.js": "/introduction/static/js/main.ff664601.js",
+    "main.css": "/introduction/static/css/main.d070e1b6.css",
+    "main.js": "/introduction/static/js/main.b72f9f29.js",
     "static/media/monet5.png": "/introduction/static/media/monet5.2f584c5ba4e34c2a49d0.png",
-    "static/media/nostelgia.jpg": "/introduction/static/media/nostelgia.4aa7187c9dd9993a0f1e.jpg",
     "index.html": "/introduction/index.html",
-    "main.974b05ec.css.map": "/introduction/static/css/main.974b05ec.css.map",
-    "main.ff664601.js.map": "/introduction/static/js/main.ff664601.js.map"
+    "main.d070e1b6.css.map": "/introduction/static/css/main.d070e1b6.css.map",
+    "main.b72f9f29.js.map": "/introduction/static/js/main.b72f9f29.js.map"
   },
   "entrypoints": [
-    "static/css/main.974b05ec.css",
-    "static/js/main.ff664601.js"
+    "static/css/main.d070e1b6.css",
+    "static/js/main.b72f9f29.js"
   ]
 }
