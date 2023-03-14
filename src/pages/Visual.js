@@ -22,7 +22,7 @@ const Visual = () => {
           style={{ width: "550px", height: "700px" }}
         />
         <p
-          className="text-[48px] text-teal-700 text-right"
+          className="about text-[48px] text-teal-700 text-right"
           data-aos="fade-right"
           data-aos-duration="600"
           data-aos-delay="600"

@@ -63,19 +63,11 @@ const Portfolio = () => {
             </div>
             <div className="portfolio-team">
               <div className="portfolio-left">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                ></a>
+                <video src={`${path}/images/damhwa.mp4`} autoPlay muted></video>
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
-                  <li>
-                    프로젝트명 | 프론트엔드&백엔드 협업 프로젝트 1차{" "}
-                    <a href="http://192.168.0.95:3000/"></a>
-                  </li>
+                  <li>프로젝트명 | 프론트엔드&백엔드 협업 프로젝트 1차 </li>
                   <li>프로젝트 기간 | </li>
                   <li>프로젝트 주제 | </li>
                   <li>프로젝트 기여도 | </li>
@@ -113,12 +105,11 @@ const Portfolio = () => {
             </div>
             <div className="portfolio-team">
               <div className="portfolio-left">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                ></a>
+                <video
+                  src={`${path}/images/dietdiary.mp4`}
+                  autoPlay
+                  muted
+                ></video>
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
@@ -158,7 +149,6 @@ const Portfolio = () => {
             <Swiper
               className="portfolio-slide"
               loop={true}
-              slidesPerView={3}
               spaceBetween={30}
               pagination={true}
               breakpoints={{

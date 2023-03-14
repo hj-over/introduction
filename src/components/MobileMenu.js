@@ -42,14 +42,6 @@ const MobileMenu = ({ setPage, open, setOpen }) => {
             setOpen(false);
           }}
         >
-          <span>Life</span>
-        </li>
-        <li
-          onClick={() => {
-            setPage(5);
-            setOpen(false);
-          }}
-        >
           <span>Vision</span>
         </li>
       </ul>

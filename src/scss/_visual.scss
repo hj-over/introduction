@@ -6,5 +6,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+  }
+}
+// 데스크탑
+@media screen and (max-width: $desktop) {
+}
+// 타블렛
+@media screen and (max-width: $tablet) {
+}
+// 모바일
+@media screen and (max-width: $mp) {
+  .inner > img {
+    width: 370px !important;
+    height: 500px !important;
+    padding-bottom: 25px;
+  }
+  .about {
+    font-size: 30px !important;
+    span {
+      font-size: 28px !important;
+    }
+    .w-16 {
+      width: 25px !important;
+      height: 25px !important;
+    }
   }
 }
