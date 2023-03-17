@@ -17,16 +17,16 @@ const Visual = () => {
       <div className="inner flex justify-between ">
         {/* 첫인상 남기기(사진/대표단어 ) */}
         <img
-          src={`${path}/images/me.jpg`}
+          src={`${path}/images/me3.jpg`}
           alt="visual"
-          style={{ width: "550px", height: "700px" }}
+          style={{ width: "550px", height: "550px" }}
         />
         <p
           className="about text-[48px] text-teal-700 text-right"
           data-aos="fade-right"
-          data-aos-duration="600"
-          data-aos-delay="600"
-          style={{ width: "600px", height: "700px" }}
+          data-aos-duration="800"
+          data-aos-delay="800"
+          style={{ width: "600px", height: "500px" }}
         >
           Publisher & Frontend Developer
           <br />
@@ -34,16 +34,17 @@ const Visual = () => {
             동물과 책을 사랑하는 퍼블리셔 <br />
             이효정입니다.
           </span>
-          <span className="flex justify-end">
-            <img
-              src={`${path}/images/write_icon.png`}
-              alt="book"
-              className="w-16 h-16"
-              onClick={() => {
-                <a href=""></a>;
-              }}
-              style={{ cursor: "pointer" }}
-            />
+          <span className="flex justify-end text-[38px] pt-28">
+            <a
+              href="https://tourmaline-atlasaurus-77b.notion.site/About-ME-64e45cfb449d40c8a58216cf872da655"
+              data-aos="zoom-in-up"
+              data-aos-duration="900"
+              data-aos-delay="1000"
+              className="me"
+            >
+              {" "}
+              About ME!
+            </a>
           </span>
         </p>
         {/* Anime 샘플 */}

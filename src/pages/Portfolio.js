@@ -23,23 +23,42 @@ const Portfolio = () => {
             </h3>
             <div className="portfolio-team">
               <div className="portfolio-left">
-                <a
-                  href="https://github.com/haglass/kyobo"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="portfolio"
-                >
-                  {" "}
-                </a>
+                <video src={`${path}/images/kyobo.mp4`} autoPlay muted></video>
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
-                  <li>프로젝트명 | 교보문고 미니 프로젝트 </li>
-                  <li>프로젝트 기간 | </li>
-                  <li>프로젝트 주제 | </li>
-                  <li>프로젝트 기여도 | </li>
-                  <li>프로젝트 도구 | </li>
-                  <li>프로젝트 사용언어 | </li>
+                  <li>
+                    프로젝트명 |{" "}
+                    <span className="text-teal-800">
+                      {" "}
+                      교보문고 미니 프로젝트
+                    </span>{" "}
+                  </li>
+                  <li>
+                    프로젝트 기간 |{" "}
+                    <span className="text-teal-800"> 2022.12.16 - 12.23</span>
+                  </li>
+                  <li>
+                    프로젝트 주제 |{" "}
+                    <span className="text-teal-800">
+                      {" "}
+                      온라인 "교보문고"를 기반으로 한 웹앱 기획, 구현
+                    </span>
+                  </li>
+                  <li>
+                    프로젝트 기여도 | <span className="text-teal-800"> </span>
+                  </li>
+                  <li>
+                    프로젝트 도구 |{" "}
+                    <span className="text-teal-800"> VSCD </span>
+                  </li>
+                  <li>
+                    프로젝트 사용언어 |{" "}
+                    <span className="text-teal-800">
+                      {" "}
+                      JavaScript, CSS, HTML
+                    </span>
+                  </li>
                   <li>
                     프로젝트 Git :{" "}
                     <a
@@ -67,14 +86,38 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
-                  <li>프로젝트명 | 프론트엔드&백엔드 협업 프로젝트 1차 </li>
-                  <li>프로젝트 기간 | </li>
-                  <li>프로젝트 주제 | </li>
-                  <li>프로젝트 기여도 | </li>
-                  <li>프로젝트 도구 | </li>
-                  <li>프로젝트 사용언어 | </li>
                   <li>
-                    PPT :{" "}
+                    프로젝트명 |{" "}
+                    <span className="text-teal-800">
+                      {" "}
+                      프론트엔드&백엔드 협업 프로젝트 1차
+                    </span>
+                  </li>
+                  <li>
+                    프로젝트 기간 |{" "}
+                    <span className="text-teal-800">2022.12.26-2023.02.06</span>
+                  </li>
+                  <li>
+                    프로젝트 주제 |{" "}
+                    <span className="text-teal-800">
+                      주류 판매 사이트를 벤치마킹해 배달/주문 사이트를 기획
+                    </span>{" "}
+                  </li>
+                  <li>
+                    프로젝트 기여도 | <span className="text-teal-800"></span>{" "}
+                  </li>
+                  <li>
+                    프로젝트 도구 | <span className="text-teal-800"> VSCD</span>
+                  </li>
+                  <li>
+                    프로젝트 사용언어 |{" "}
+                    <span className="text-teal-800">
+                      {" "}
+                      JavaScript, CSS, HTML
+                    </span>
+                  </li>
+                  <li>
+                    PPT |{" "}
                     <a
                       href="https://www.canva.com/design/DAFZY_ZS-8k/SO_UxXDmOtsy-EmzM1tiCA/view?utm_content=DAFZY_ZS-8k&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu"
                       className="text-indigo-800 underline underline-offset-4"
@@ -113,13 +156,45 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
-                  <li>프로젝트명 | 프론트엔드&백엔드 협업 프로젝트 2차</li>
-                  <li>프로젝트 기간 | </li>
-                  <li>프로젝트 주제 | </li>
-                  <li>프로젝트 기여도 | </li>
-                  <li>프로젝트 도구 | </li>
-                  <li>프로젝트 사용언어 | </li>
-                  <li>PPT |</li>
+                  <li>
+                    프로젝트명 |{" "}
+                    <span className="text-teal-800">
+                      {" "}
+                      프론트엔드&백엔드 협업 프로젝트 2차
+                    </span>
+                  </li>
+                  <li>
+                    프로젝트 기간 |{" "}
+                    <span className="text-teal-800"> 2023.02 - 03.06</span>
+                  </li>
+                  <li>
+                    프로젝트 주제 |{" "}
+                    <span className="text-teal-800">
+                      식단 일정 관리와 약 복용, 음수량을 함께 관리하는 웹앱 기획
+                    </span>
+                  </li>
+                  <li>
+                    프로젝트 기여도 | <span className="text-teal-800"></span>
+                  </li>
+                  <li>
+                    프로젝트 도구 | <span className="text-teal-800">VSCD</span>
+                  </li>
+                  <li>
+                    프로젝트 사용언어 |{" "}
+                    <span className="text-teal-800">
+                      {" "}
+                      JavaScript, CSS, HTML
+                    </span>
+                  </li>
+                  <li>
+                    PPT |{" "}
+                    <a
+                      href="https://www.canva.com/design/DAFbRzBmpBs/9FerCBM9v34pvhpQmTVrIQ/view?utm_content=DAFbRzBmpBs&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu"
+                      className="text-indigo-800 underline underline-offset-4"
+                    >
+                      PPT
+                    </a>
+                  </li>
                   <li>
                     프로젝트 Git |{" "}
                     <a
@@ -133,6 +208,72 @@ const Portfolio = () => {
                     프로젝트 노션 |{" "}
                     <a
                       href="https://tourmaline-atlasaurus-77b.notion.site/FB-2-f38a7855136541aead470c7564569812"
+                      className="text-indigo-800 underline underline-offset-4"
+                    >
+                      Notion
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="portfolio-team">
+              <div className="portfolio-left">
+                <video src={`${path}/images/lms.mp4`} autoPlay muted></video>
+              </div>
+              <div className="portfolio-right">
+                <ul className="portfilio-team-list">
+                  <li>
+                    프로젝트명 | LMS{" "}
+                    <span className="text-teal-800">
+                      {" "}
+                      프론트엔드&백엔드 협업 프로젝트 3차
+                    </span>
+                  </li>
+                  <li>
+                    프로젝트 기간 |{" "}
+                    <span className="text-teal-800"> 2023.03. - 04.04</span>
+                  </li>
+                  <li>
+                    프로젝트 주제 |{" "}
+                    <span className="text-teal-800">
+                      대학생 단과대학의 LMS 기획
+                    </span>
+                  </li>
+                  <li>
+                    프로젝트 기여도 | <span className="text-teal-800"></span>
+                  </li>
+                  <li>
+                    프로젝트 도구 | <span className="text-teal-800">VSCD</span>
+                  </li>
+                  <li>
+                    프로젝트 사용언어 |{" "}
+                    <span className="text-teal-800">
+                      {" "}
+                      TypeScript, JavaScript, CSS, HTML
+                    </span>
+                  </li>
+                  <li>
+                    PPT |{" "}
+                    <a
+                      href=""
+                      className="text-indigo-800 underline underline-offset-4"
+                    >
+                      PPT
+                    </a>
+                  </li>
+                  <li>
+                    프로젝트 Git |{" "}
+                    <a
+                      href="https://github.com/HumanJSEngine/project_LMS"
+                      className="text-indigo-800 underline underline-offset-4"
+                    >
+                      GitHub
+                    </a>
+                  </li>
+                  <li>
+                    프로젝트 노션 |{" "}
+                    <a
+                      href="https://tourmaline-atlasaurus-77b.notion.site/FB-3-ad0c735c327340c68b348c997b347947"
                       className="text-indigo-800 underline underline-offset-4"
                     >
                       Notion
