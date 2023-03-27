@@ -91,13 +91,13 @@ const Piechart = () => {
          */
         legends={[
           {
-            anchor: "bottom-right",
+            anchor: "bottom-center",
             direction: "row",
             justify: false,
-            translateX: 80,
-            translateY: 56,
-            itemsSpacing: -18,
-            itemWidth: 95,
+            translateX: -15,
+            translateY: 250,
+            itemsSpacing: -13,
+            itemWidth: 90,
             itemHeight: 18,
             itemTextColor: "#999",
             itemDirection: "left-to-right",

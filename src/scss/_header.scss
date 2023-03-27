@@ -36,7 +36,7 @@
           span {
             position: relative;
             font-family: "MuseoModerno", sans-serif;
-            font-size: 18px;
+            font-size: 20px;
             color: #131313;
             text-transform: uppercase;
             font-weight: 600;
@@ -48,12 +48,12 @@
               bottom: 0;
               width: 0%;
               height: 3px;
-              background-color: #34d399;
+              background-color: #14b8a6;
               transition: width 0.5s;
             }
           }
           &:hover span {
-            color: #0f766e;
+            color: #14b8a6;
             &::after {
               width: 100%;
             }

@@ -5,7 +5,7 @@ const Skills = () => {
     <section className="skills scroll">
       <div className="inner">
         {/* 기술적 역량: 기술적 내용설명,자격증,운전면허 등..  */}
-        <h2 className="text-xl">Skills</h2>
+        <h2 className="text-2xl">Skills</h2>
         <div className="contents">
           <ul className="skills-list">
             <li>
@@ -41,7 +41,7 @@ const Skills = () => {
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
-                data-aos-delay="600"
+                data-aos-delay="500"
               />
             </li>
             <li>
@@ -50,7 +50,7 @@ const Skills = () => {
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
-                data-aos-delay="700"
+                data-aos-delay="600"
               />
             </li>
             <li>
@@ -67,8 +67,8 @@ const Skills = () => {
                 src="images/tailwind_css_icon.png"
                 alt="skill"
                 data-aos="fade-up"
-                data-aos-duration="300"
-                data-aos-delay="600"
+                data-aos-duration="350"
+                data-aos-delay="700"
               />
             </li>
             <li>
@@ -76,7 +76,7 @@ const Skills = () => {
                 src="images/skill-figma.png"
                 alt="skill"
                 data-aos="fade-up"
-                data-aos-duration="300"
+                data-aos-duration="350"
                 data-aos-delay="700"
               />
             </li>
@@ -85,8 +85,8 @@ const Skills = () => {
                 src="images/notion_icon.png"
                 alt="skill"
                 data-aos="fade-up"
-                data-aos-duration="300"
-                data-aos-delay="900"
+                data-aos-duration="400"
+                data-aos-delay="800"
               />
             </li>
             <li>
@@ -94,8 +94,8 @@ const Skills = () => {
                 src="images/skill-sass.png"
                 alt="skill"
                 data-aos="fade-up"
-                data-aos-duration="300"
-                data-aos-delay="1000"
+                data-aos-duration="400"
+                data-aos-delay="800"
               />
             </li>
           </ul>

@@ -12,7 +12,7 @@ const Portfolio = () => {
     <section className="portfolio scroll">
       <div className="inner">
         {/* 개발담당자 : 팀프로젝트, 개인 작업(5개 목표(퍼블리싱 > 프론트)) */}
-        <h2 className="text-xl" data-aos="fade-up">
+        <h2 className="text-2xl" data-aos="fade-up">
           Portfolio
         </h2>
         <div className="contents">
@@ -30,6 +30,7 @@ const Portfolio = () => {
                   <li>
                     프로젝트명 |
                     <span className="text-teal-800">
+                      {" "}
                       &#32; 교보문고 미니 프로젝트
                     </span>
                   </li>
@@ -331,7 +332,7 @@ const Portfolio = () => {
             </div>
           </div>
           {/* 개인 스터디 프로젝트 */}
-          <div className="portfolio-box">
+          <div className="portfolio-box pt-7">
             <h3 className="pb-3">Study Project</h3>
             {/* Swiper 배치 */}
             <Swiper
@@ -383,7 +384,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   alt="portfolio"
                 >
-                  <img src={`${path}/images/stx.PNG`} alt="portfolio" />
+                  <img src={`${path}/images/hyundai.PNG`} alt="portfolio" />
                 </a>
               </SwiperSlide>
               <SwiperSlide>
@@ -408,7 +409,7 @@ const Portfolio = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <a
-                  href="#"
+                  href="https://github.com/hj-over/hyundai-clone"
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="portfolio"

@@ -5,7 +5,7 @@ const Vision = () => {
     <section className="vision scroll">
       <div className="inner">
         {/* 1년 목표, 3년후 목표, 5년후 목표 */}
-        <h2 className="text-xl">Vision</h2>
+        <h2 className="text-2xl">Vision</h2>
         <div className="contetns">
           <ul className="vision-list">
             <li>1년후 : 27살</li>

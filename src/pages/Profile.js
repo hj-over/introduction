@@ -7,7 +7,7 @@ const Profile = () => {
       <div className="inner">
         {/*자기소개: 약력, 학력, 업무, 교육, 성격, MBTI */}
         <h2
-          className="text-xl"
+          className="text-2xl"
           data-aos="fade-up"
           data-aos-duration="700"
           data-aos-delay="200"
@@ -44,8 +44,8 @@ const Profile = () => {
             </span>
           </div>
         </div>
-        <div className="inner mt-10">
-          <p className="font-semibold text-xl">Experiences</p>
+        <div className="inner my-10">
+          <p className="font-semibold text-xl text-teal-600">Education</p>
           <br />
           <li className="text-lg">
             &#183; 한경대학교 미디어문예창작학과(수료, 졸업예정)
@@ -55,6 +55,10 @@ const Profile = () => {
             &#45; 기업 요구를 반영한 프로젝트 중심 프론트엔드 React(리액트)
             개발자 양성
           </li>
+          <br />
+          <p className="font-semibold text-xl text-teal-600">Certification</p>
+          <br />
+          <li className="text-lg">&#183; JLPT N3</li>
         </div>
       </div>
     </section>
