@@ -1,3 +1,5 @@
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useRef } from "react";
 import Anime from "../assets/Anime";
 
@@ -19,6 +21,9 @@ const Visual = () => {
         <img
           src={`${path}/images/me3.jpg`}
           alt="visual"
+          data-aos="fade-down"
+          data-aos-duration="900"
+          data-aos-delay="1000"
           style={{ width: "550px", height: "550px" }}
         />
         <p
@@ -34,15 +39,19 @@ const Visual = () => {
             동물과 책을 사랑하는 퍼블리셔 <br />
             이효정입니다.
           </span>
-          <span className="flex justify-end text-[38px] pt-28">
+          <span className="flex justify-end text-[38px] pt-24">
             <a
               href="https://tourmaline-atlasaurus-77b.notion.site/About-ME-64e45cfb449d40c8a58216cf872da655"
               data-aos="zoom-in-up"
-              data-aos-duration="900"
-              data-aos-delay="1000"
+              data-aos-duration="800"
+              data-aos-delay="500"
               className="me"
             >
               {" "}
+              <FontAwesomeIcon
+                icon={faArrowRight}
+                style={{ color: "#0d9488" }}
+              />{" "}
               About ME!
             </a>
           </span>

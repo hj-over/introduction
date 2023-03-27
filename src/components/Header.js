@@ -1,12 +1,18 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 const Header = ({ setPage, setOpen, open }) => {
+  const path = process.env.PUBLIC_URL;
   return (
     <header className="header">
       <div className="inner">
         <nav className="nav">
           <span className="header-logo text-4xl" onClick={() => setPage(0)}>
-            Hj-over
+            <img
+              src={`${path}/images/Clogo.png`}
+              alt="logo"
+              style={{ width: 150, height: 50 }}
+              className="hover:bg-green-100 transiton"
+            />
           </span>
           <ul className="gnb">
             <li onClick={() => setPage(0)}>
@@ -22,9 +28,6 @@ const Header = ({ setPage, setOpen, open }) => {
               <span>Portfolio</span>
             </li>
             <li onClick={() => setPage(4)}>
-              <span>Life</span>
-            </li>
-            <li onClick={() => setPage(5)}>
               <span>Vision</span>
             </li>
           </ul>

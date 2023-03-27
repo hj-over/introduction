@@ -9,8 +9,8 @@ const Profile = () => {
         <h2
           className="text-xl"
           data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="500"
+          data-aos-duration="700"
+          data-aos-delay="200"
         >
           Profile
         </h2>
@@ -19,7 +19,12 @@ const Profile = () => {
             <Piechart />
           </div>
           <div className="profile-box">
-            <span className="monet5">
+            <span
+              className="monet5"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="300"
+            >
               <p
                 className="flex justify-center text-center font-bold text-xl text-gray-100 pt-20 pb-7"
                 data-aos="fade-up"
@@ -38,6 +43,18 @@ const Profile = () => {
               </p>
             </span>
           </div>
+        </div>
+        <div className="inner mt-10">
+          <p className="font-semibold text-xl">Experiences</p>
+          <br />
+          <li className="text-lg">
+            &#183; 한경대학교 미디어문예창작학과(수료, 졸업예정)
+          </li>
+          <li className="text-lg">&#183; 그린 컴퓨터 학원</li>
+          <li className="">
+            &#45; 기업 요구를 반영한 프로젝트 중심 프론트엔드 React(리액트)
+            개발자 양성
+          </li>
         </div>
       </div>
     </section>

@@ -24,6 +24,9 @@
 
 // 타블렛
 @media screen and (max-width: $tablet) {
+  .monet5 {
+    width: 500px !important;
+  }
 }
 // 모바일
 @media screen and (max-width: $mp) {
