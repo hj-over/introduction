@@ -56,7 +56,7 @@ const Profile = () => {
             개발자 양성
           </li>
           <br />
-          <p className="font-semibold text-xl text-teal-600">Certification</p>
+          <p className="font-semibold text-xl text-teal-600">Certificate</p>
           <br />
           <li className="text-lg">&#183; JLPT N3</li>
         </div>
