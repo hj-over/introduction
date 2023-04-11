@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/introduction/static/css/main.7026fb8c.css",
-    "main.js": "/introduction/static/js/main.bfc8ec65.js",
+    "main.css": "/introduction/static/css/main.68936064.css",
+    "main.js": "/introduction/static/js/main.4135e0dd.js",
     "static/media/monet5.png": "/introduction/static/media/monet5.2f584c5ba4e34c2a49d0.png",
     "index.html": "/introduction/index.html",
-    "main.7026fb8c.css.map": "/introduction/static/css/main.7026fb8c.css.map",
-    "main.bfc8ec65.js.map": "/introduction/static/js/main.bfc8ec65.js.map"
+    "main.68936064.css.map": "/introduction/static/css/main.68936064.css.map",
+    "main.4135e0dd.js.map": "/introduction/static/js/main.4135e0dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.7026fb8c.css",
-    "static/js/main.bfc8ec65.js"
+    "static/css/main.68936064.css",
+    "static/js/main.4135e0dd.js"
   ]
 }
